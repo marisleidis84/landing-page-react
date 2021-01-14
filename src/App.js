@@ -1,11 +1,19 @@
 import './App.css';
-import Card from './Card';
-import Footer from './Footer';
+import Navbar from './components/Navbar';
+import Jumbotron from './components/Jumbotron';
+import Card from './components/Card';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
+    <Navbar ButtonName='Start Boostrap' home='Home' about='About' service='Service'/>
       <div className="container">
+        <div className='row'>
+            <div className='col-md-12'>
+
+            </div>
+        </div>
         <div className="row">
         <div className="col-md-3">
             <Card
