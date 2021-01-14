@@ -5,7 +5,9 @@ const Jumbotron = (props) => {
         <div class="jumbotron">
             <h1 class="display-4">{props.title}</h1>
             <p class="lead">{props.text}</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">{props.btn}</a>
+            <a class="btn btn-primary btn-lg" href="#" role="button">{props.button}</a>
         </div>
     );
 };
+
+export default Jumbotron;
