@@ -1,5 +1,6 @@
 import './App.css';
 import Card from './Card';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
 
         </div>
       </div>
+      <Footer textfooter="Copyright @ Yor Website 2021"/>
 
     </>
   );
